@@ -7,22 +7,30 @@ A second analysis of a school district's test scores must be completed after all
 ## Results
 * *How is the district summary affected?* 
 The average math and reading scores and the passing rates all decreased slightly. The overall passing rate dropped .1%, while math and reading passing percentages dropped .2% and .3% respectively. 
-![Previous District Summary](./Resources/old_district_summary.png)  (Previous District Summary)
-![New District Summary](./Resources/new_district_summary.png) (Recalculated District Summary)
+Previous District Summary:
+![Previous District Summary](./Resources/old_district_summary.png)  
+Recalculated District Summary:
+![New District Summary](./Resources/new_district_summary.png) 
 
 * *How is the school summary affected?*
-The only school affected by the change is Thomas High School.  While the scores are higher in the original report, there is not a significant change. 
-![Previous District Summary](./Resources/old_THS_Summary.png) (Previous Thomas High School Summary)
-![New District Summary](./Resources/new_THS_Summary.png) (Recalculated Thomas High School Summary)
+The only school affected by the change is Thomas High School.  While the scores are higher in the original report, there is not a significant change.
+
+Previous Thomas High School Summary:
+
+![Previous District Summary](./Resources/old_THS_Summary.png) 
+
+Recalculated Thomas High School Summary:
+
+![New District Summary](./Resources/new_THS_Summary.png) 
 
 
-* How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?
+* *How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?*
 
 Thomas High School still ranks 2nd for the Overall Passing percentage. It does not affect the standings. 
 
-![Previous District Summary](./Resources/old_district_summary.png)
+![Top 5 Schools](./Resources/top5_standings.png)
 
-* How does replacing the ninth-grade scores afect the following: The changes are so minute that the scores by school spending, school size, and school type aren't phased within the rounding format. 
+* How does replacing the ninth-grade scores afect the following: Math and REading Scores by Grade, Scores by school speding, scores by school size, scores by school type. The changes are so minute that the scores by school spending, school size, and school type aren't phased within the rounding format. 
 	* Math and reading scores by grade: In the code, only Thomas High School's 9th grade scores were altered to NaNs. 
 ![School Scores](./Resources/School_summary_with_NaNs.png)
 	* Scores by school spending - Thomas High School is categorized in the $630-648 range. 
@@ -33,8 +41,6 @@ Thomas High School still ranks 2nd for the Overall Passing percentage. It does n
 ![Scores by school type](./Resources/old_type_summary.png)
 
 ## Summary
-There are a few key findings from replacing the 9th grade scores
-1. The amount of change in the 
-2. 
-3. 
-4.
+There are a few key findings from replacing the 9th grade scores. 
+1. The amount of change in the overall district summaries could imply that the cheating wasn't as extensive as believed. 
+2. In tandem with point #1, since the 9th grade scores were similar to the 10th - 12th grade, and the school summary didn't alter much, the whole school could have been involved in the scandal. 
